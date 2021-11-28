@@ -1,0 +1,376 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MainScriptFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local FlyButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local HeadlessButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ScriptName = Instance.new("TextLabel")
+local WelcomeFrame = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local WelcomeLabel = Instance.new("TextLabel")
+local UsernameLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
+local OtherScriptsFrame = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local FadedScriptButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local SwagmodeScriptButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local SwagmodeScriptButton_2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local PagesFrame = Instance.new("Frame")
+local PagesLabel = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local HomeButton = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local MainScriptsButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local OtherScriptsButton = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.Workspace
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MainFrame.Position = UDim2.new(0.304761916, 0, 0.293251514, 0)
+MainFrame.Size = UDim2.new(0, 532, 0, 337)
+ 
+UICorner.Parent = MainFrame
+ 
+MainScriptFrame.Name = "MainScriptFrame"
+MainScriptFrame.Parent = MainFrame
+MainScriptFrame.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+MainScriptFrame.Position = UDim2.new(0.385338336, 0, 0.106824927, 0)
+MainScriptFrame.Size = UDim2.new(0, 297, 0, 285)
+MainScriptFrame.Visible = false
+ 
+UICorner_2.Parent = MainScriptFrame
+ 
+FlyButton.Name = "FlyButton"
+FlyButton.Parent = MainScriptFrame
+FlyButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FlyButton.Position = UDim2.new(0.0437710434, 0, 0.0631578937, 0)
+FlyButton.Size = UDim2.new(0, 135, 0, 45)
+FlyButton.Font = Enum.Font.SourceSansBold
+FlyButton.Text = "Fly"
+FlyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlyButton.TextScaled = true
+FlyButton.TextSize = 14.000
+FlyButton.TextWrapped = true
+ 
+UICorner_3.Parent = FlyButton
+ 
+HeadlessButton.Name = "HeadlessButton"
+HeadlessButton.Parent = MainScriptFrame
+HeadlessButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HeadlessButton.Position = UDim2.new(0.0437710434, 0, 0.357894748, 0)
+HeadlessButton.Size = UDim2.new(0, 135, 0, 45)
+HeadlessButton.Font = Enum.Font.SourceSansBold
+HeadlessButton.Text = "Headless"
+HeadlessButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HeadlessButton.TextScaled = true
+HeadlessButton.TextSize = 14.000
+HeadlessButton.TextWrapped = true
+ 
+UICorner_4.Parent = HeadlessButton
+ 
+ScriptName.Name = "ScriptName"
+ScriptName.Parent = MainFrame
+ScriptName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName.BackgroundTransparency = 1.000
+ScriptName.Position = UDim2.new(0.453007519, 0, 0.0207715146, 0)
+ScriptName.Size = UDim2.new(0, 200, 0, 22)
+ScriptName.Font = Enum.Font.SourceSansBold
+ScriptName.Text = "Epic Mode"
+ScriptName.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptName.TextScaled = true
+ScriptName.TextSize = 14.000
+ScriptName.TextWrapped = true
+ 
+WelcomeFrame.Name = "WelcomeFrame"
+WelcomeFrame.Parent = MainFrame
+WelcomeFrame.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+WelcomeFrame.Position = UDim2.new(0.385338336, 0, 0.103857569, 0)
+WelcomeFrame.Size = UDim2.new(0, 297, 0, 286)
+ 
+UICorner_5.Parent = WelcomeFrame
+ 
+WelcomeLabel.Name = "WelcomeLabel"
+WelcomeLabel.Parent = WelcomeFrame
+WelcomeLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeLabel.BackgroundTransparency = 1.000
+WelcomeLabel.Position = UDim2.new(0.195286199, 0, 0.398601383, 0)
+WelcomeLabel.Size = UDim2.new(0, 181, 0, 39)
+WelcomeLabel.Font = Enum.Font.SourceSansBold
+WelcomeLabel.Text = "Welcome,"
+WelcomeLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeLabel.TextScaled = true
+WelcomeLabel.TextSize = 14.000
+WelcomeLabel.TextWrapped = true
+ 
+UsernameLabel.Name = "UsernameLabel"
+UsernameLabel.Parent = WelcomeFrame
+UsernameLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UsernameLabel.BackgroundTransparency = 1.000
+UsernameLabel.Position = UDim2.new(0.161616161, 0, 0.534965038, 0)
+UsernameLabel.Size = UDim2.new(0, 191, 0, 36)
+UsernameLabel.Font = Enum.Font.SourceSansBold
+UsernameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameLabel.TextScaled = true
+UsernameLabel.TextSize = 14.000
+UsernameLabel.TextWrapped = true
+ 
+ImageLabel.Parent = WelcomeFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.313131303, 0, 0.031468533, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+ 
+UICorner_6.Parent = ImageLabel
+ 
+OtherScriptsFrame.Name = "OtherScriptsFrame"
+OtherScriptsFrame.Parent = MainFrame
+OtherScriptsFrame.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+OtherScriptsFrame.Position = UDim2.new(0.385338336, 0, 0.103857569, 0)
+OtherScriptsFrame.Size = UDim2.new(0, 297, 0, 286)
+OtherScriptsFrame.Visible = false
+ 
+UICorner_7.Parent = OtherScriptsFrame
+ 
+FadedScriptButton.Name = "FadedScriptButton"
+FadedScriptButton.Parent = OtherScriptsFrame
+FadedScriptButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadedScriptButton.Position = UDim2.new(0.0284900591, 0, 0.0304252785, 0)
+FadedScriptButton.Size = UDim2.new(0, 147, 0, 63)
+FadedScriptButton.Font = Enum.Font.SourceSansBold
+FadedScriptButton.Text = "Faded"
+FadedScriptButton.TextColor3 = Color3.fromRGB(203, 203, 203)
+FadedScriptButton.TextScaled = true
+FadedScriptButton.TextSize = 14.000
+FadedScriptButton.TextWrapped = true
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+ 
+UICorner_8.Parent = FadedScriptButton
+ 
+SwagmodeScriptButton.Name = "SwagmodeScriptButton"
+SwagmodeScriptButton.Parent = OtherScriptsFrame
+SwagmodeScriptButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SwagmodeScriptButton.Position = UDim2.new(0.0284900609, 0, 0.310145557, 0)
+SwagmodeScriptButton.Size = UDim2.new(0, 147, 0, 64)
+SwagmodeScriptButton.Font = Enum.Font.SourceSansBold
+SwagmodeScriptButton.Text = "Swag Mode"
+SwagmodeScriptButton.TextColor3 = Color3.fromRGB(203, 203, 203)
+SwagmodeScriptButton.TextScaled = true
+SwagmodeScriptButton.TextSize = 14.000
+SwagmodeScriptButton.TextWrapped = true
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+ 
+UICorner_9.Parent = SwagmodeScriptButton
+ 
+SwagmodeScriptButton_2.Name = "SwagmodeScriptButton"
+SwagmodeScriptButton_2.Parent = OtherScriptsFrame
+SwagmodeScriptButton_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SwagmodeScriptButton_2.Position = UDim2.new(0.0284900609, 0, 0.607348382, 0)
+SwagmodeScriptButton_2.Size = UDim2.new(0, 147, 0, 64)
+SwagmodeScriptButton_2.Font = Enum.Font.SourceSansBold
+SwagmodeScriptButton_2.Text = "Destiny"
+SwagmodeScriptButton_2.TextColor3 = Color3.fromRGB(203, 203, 203)
+SwagmodeScriptButton_2.TextScaled = true
+SwagmodeScriptButton_2.TextSize = 14.000
+SwagmodeScriptButton_2.TextWrapped = true
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))(); 
+end)
+ 
+UICorner_10.Parent = SwagmodeScriptButton_2
+ 
+PagesFrame.Name = "PagesFrame"
+PagesFrame.Parent = MainFrame
+PagesFrame.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+PagesFrame.Position = UDim2.new(0.0150375925, 0, 0.0474777445, 0)
+PagesFrame.Size = UDim2.new(0, 143, 0, 305)
+ 
+PagesLabel.Name = "PagesLabel"
+PagesLabel.Parent = PagesFrame
+PagesLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PagesLabel.BackgroundTransparency = 1.000
+PagesLabel.Position = UDim2.new(0.0357142873, 0, 0.0642019808, 0)
+PagesLabel.Size = UDim2.new(0, 124, 0, 32)
+PagesLabel.Font = Enum.Font.SourceSansBold
+PagesLabel.Text = "Pages"
+PagesLabel.TextColor3 = Color3.fromRGB(203, 203, 203)
+PagesLabel.TextScaled = true
+PagesLabel.TextSize = 14.000
+PagesLabel.TextWrapped = true
+ 
+UICorner_11.Parent = PagesFrame
+ 
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = MainFrame
+HomeButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HomeButton.Position = UDim2.new(0.0344392583, 0, 0.276674628, 0)
+HomeButton.Size = UDim2.new(0, 124, 0, 39)
+HomeButton.Font = Enum.Font.SourceSans
+HomeButton.Text = "Home"
+HomeButton.TextColor3 = Color3.fromRGB(203, 203, 203)
+HomeButton.TextSize = 14.000
+HomeButton.TextWrapped = true
+ 
+UICorner_12.Parent = HomeButton
+ 
+MainScriptsButton.Name = "MainScriptsButton"
+MainScriptsButton.Parent = MainFrame
+MainScriptsButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MainScriptsButton.Position = UDim2.new(0.034313947, 0, 0.439721048, 0)
+MainScriptsButton.Size = UDim2.new(0, 124, 0, 39)
+MainScriptsButton.Font = Enum.Font.SourceSans
+MainScriptsButton.Text = "Main Scripts"
+MainScriptsButton.TextColor3 = Color3.fromRGB(203, 203, 203)
+MainScriptsButton.TextSize = 14.000
+ 
+UICorner_13.Parent = MainScriptsButton
+ 
+OtherScriptsButton.Name = "OtherScriptsButton"
+OtherScriptsButton.Parent = MainFrame
+OtherScriptsButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+OtherScriptsButton.Position = UDim2.new(0.0339310467, 0, 0.624410689, 0)
+OtherScriptsButton.Size = UDim2.new(0, 124, 0, 39)
+OtherScriptsButton.Font = Enum.Font.SourceSans
+OtherScriptsButton.Text = "Other Scripts"
+OtherScriptsButton.TextColor3 = Color3.fromRGB(203, 203, 203)
+OtherScriptsButton.TextSize = 14.000
+OtherScriptsButton.TextWrapped = true
+ 
+UICorner_14.Parent = OtherScriptsButton
+ 
+-- Scripts:
+ 
+local function AYFXG_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+ 
+	local dragger = {}; 
+	local resizer = {};
+ 
+	do
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+		local inputService = game:GetService('UserInputService');
+		local heartbeat = game:GetService("RunService").Heartbeat;
+		-- // credits to Ririchi / Inori for this cute drag function :)
+		function dragger.new(frame)
+			local s, event = pcall(function()
+				return frame.MouseEnter
+			end)
+ 
+			if s then
+				frame.Active = true;
+ 
+				event:connect(function()
+					local input = frame.InputBegan:connect(function(key)
+						if key.UserInputType == Enum.UserInputType.MouseButton1 then
+							local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+							while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+								frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+							end
+						end
+					end)
+ 
+					local leave;
+					leave = frame.MouseLeave:connect(function()
+						input:disconnect();
+						leave:disconnect();
+					end)
+				end)
+			end
+		end
+ 
+		function resizer.new(p, s)
+			p:GetPropertyChangedSignal('AbsoluteSize'):connect(function()
+				s.Size = UDim2.new(s.Size.X.Scale, s.Size.X.Offset, s.Size.Y.Scale, p.AbsoluteSize.Y);
+			end)
+		end
+	end
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(AYFXG_fake_script)()
+local function FSBCNEP_fake_script() -- UsernameLabel.LocalScript 
+	local script = Instance.new('LocalScript', UsernameLabel)
+ 
+	local player = game.Players.LocalPlayer
+ 
+	if player then
+		script.Parent.Text = ""..player.Name..""
+	end
+end
+coroutine.wrap(FSBCNEP_fake_script)()
+local function DCIN_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+ 
+	local Players = game:GetService("Players")
+ 
+	local player = Players.LocalPlayer
+ 
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+ 
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+ 
+end
+coroutine.wrap(DCIN_fake_script)()
+local function SYOKIEU_fake_script() -- HomeButton.LocalScript 
+	local script = Instance.new('LocalScript', HomeButton)
+ 
+	local frame = script.Parent.Parent.WelcomeFrame  -- change “Test” to the name of the frane
+	local open = false
+ 
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+ 
+ 
+end
+coroutine.wrap(SYOKIEU_fake_script)()
+local function VUVCIHC_fake_script() -- MainScriptsButton.LocalScript 
+	local script = Instance.new('LocalScript', MainScriptsButton)
+ 
+	local frame = script.Parent.Parent.MainScriptFrame  -- change “Test” to the name of the frane
+	local open = false
+ 
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+ 
+end
+coroutine.wrap(VUVCIHC_fake_script)()
+local function TUUJI_fake_script() -- OtherScriptsButton.LocalScript 
+	local script = Instance.new('LocalScript', OtherScriptsButton)
+ 
+	local frame = script.Parent.Parent.OtherScriptsFrame  -- change “Test” to the name of the frane
+	local open = false
+ 
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+ 
+end
+coroutine.wrap(TUUJI_fake_script)()
+ 
